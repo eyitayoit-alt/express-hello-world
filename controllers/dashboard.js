@@ -1,5 +1,5 @@
 var path = require('path');
-exports.landingcont = (req, res) => {
+exports.dashboardcont = (req, res) => {
 
     req.on('error', (error) => {
         console.log(error)
@@ -8,6 +8,6 @@ exports.landingcont = (req, res) => {
     )
 
 
-    res.render('landing');
+    res.render('dashboard');
 
 }
